@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Giphy HW</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+    crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <!-- Search Bar & Submit Button -->
+
+  <!-- Preloaded Buttons / Button area -->
+
+  <!-- Container where gifs will be displayed -->
+
+  <div class="container">
+    <!-- begin jumbotron -->
+    <div class="jumbotron">
+      <h1>Gif(phy) Fun!</h1>
+      
+      <form class="form-inline text-center">
+        <label class="sr-only" for="search">Search</label>
+        <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="search" placeholder="Search Term">
+
+        <button type="submit" id="search-submit" class="btn btn-primary">Submit</button>
+      </form>
+    <!-- end jumbotron -->
+    </div>
+
+    <div class="row">
+      <!-- THIS WILL HOLD BUTTONS -->
+      <div class="col-md-4" id="button-holder">
+      </div>
+
+      <!-- THIS WILL HOLD GIFS -->
+      <div class="col-md-8">
+        <h2>Gifs</h2>
+        <div class="row" id="gif-holder">
+
+
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top"  id="gif-holder" alt="Giphy Image">
+          <div class="card-body">
+            <h3 class="card-title">Card title</h3>
+            <h5 class="card-title">Card rating</h5>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+    crossorigin="anonymous"></script>
+
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>
